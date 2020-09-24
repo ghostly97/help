@@ -1,0 +1,64 @@
+Hi there, you are probably here from the badcode subreddit. I genuinely had no idea how to tackle this problem so i thought an idea of 'cycling' variables in and 
+out would be the best way to deal with this. here are the instructions if you want to try it.
+
+
+
+We have 8 numbers 1-2-3-4-5-6-7-8
+Each number has a specific type that can be associated with it
+
+1-1 = perfect unison
+1-4 = perfect fourth
+1-5 = perfect fifth
+And 1-8 are perfect intervals 1-8 = perfect octave
+1 and 8 are the same 1 is low octave (lower pitched), 8 is high octave (higher pitched)
+
+1-2 = major 2nd
+1-3 = major 3rd
+1-6 = major 6th
+1-7 = major 7th
+Are major intervals
+
+
+When you LOWER a major interval by one semitone it becomes a minor interval
+(when we lower by one semi tone we put this symbol “b”
+
+When you LOWER a perfect interval by one semitone it becomes a diminished interval.
+When you LOWER a minor interval  by one semitone it becomes a diminished interval.
+When lowering a minor interval one semitone to diminished we put two “bb”
+
+When you RAISE a major interval by one semitone it becomes an augmented interval.
+When you RAISE a perfect interval by one semitone it becomes an augmented interval.
+When raising major and perfect intervals a semitone we put this symbol “#”
+
+P = perfect interval
+M = major interval
+m = minor interval
+D = diminished interval
+U = unison
+
+So we have many possibilities of said 8 notes
+
+1-2-3-4-5-6-7-8    =    PU, M2, M3, P4, P5, M6, M7, P8
+1-2-b3-#4-5-6-b7-8    =    PU, M2, m3, A4, P5, M6, m7, P8
+
+Most patterns are either 5 numbers long, up to 8 numbers long and sometimes when they have less numbers have patterns of numbers.
+
+1-2-3-5-6-8 (pentatonic scale aka 5 number length)
+1-3-4-5-7-8 (also pentatonic scale but different pattern)
+
+1-2-b3-5-b6-8
+1-b3-4-5-b7-8 - same pattern as before but now different formula
+
+We have 5 note scales - pentatonic
+6 note scales - hexatonic
+7 note scales - heptatonic (diatonic)
+8 note scales - octatonic
+
+These scales don't always have to be numerical in order 1-2-3-4-5-6-7-8
+They can have doublings of the same number like so
+1-b3-3-4-b5-5-8
+All scales will start on 1 and end on 8
+
+
+
+Your goal is to print out every possible combination and have a counter that lets you know how many combinations there are.
